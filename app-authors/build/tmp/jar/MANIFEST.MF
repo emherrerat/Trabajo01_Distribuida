@@ -1,0 +1,86 @@
+Manifest-Version: 1.0
+Main-Class: com.distribuida.Servidor
+Class-Path: libs/quarkus-hibernate-orm-panache-2.16.0.Final.jar libs/qua
+ rkus-hibernate-orm-panache-common-2.16.0.Final.jar libs/quarkus-hiberna
+ te-orm-2.16.0.Final.jar libs/quarkus-jdbc-postgresql-2.16.0.Final.jar l
+ ibs/quarkus-panache-hibernate-common-2.16.0.Final.jar libs/quarkus-pana
+ che-common-2.16.0.Final.jar libs/quarkus-resteasy-jackson-2.16.0.Final.
+ jar libs/quarkus-jackson-2.16.0.Final.jar libs/quarkus-resteasy-jaxb-2.
+ 16.0.Final.jar libs/quarkus-jaxb-2.16.0.Final.jar libs/quarkus-agroal-2
+ .16.0.Final.jar libs/quarkus-narayana-jta-2.16.0.Final.jar libs/quarkus
+ -resteasy-2.16.0.Final.jar libs/quarkus-resteasy-server-common-2.16.0.F
+ inal.jar libs/quarkus-datasource-2.16.0.Final.jar libs/quarkus-vertx-ht
+ tp-2.16.0.Final.jar libs/quarkus-vertx-2.16.0.Final.jar libs/quarkus-re
+ steasy-common-2.16.0.Final.jar libs/quarkus-mutiny-2.16.0.Final.jar lib
+ s/quarkus-smallrye-context-propagation-2.16.0.Final.jar libs/quarkus-ne
+ tty-2.16.0.Final.jar libs/quarkus-arc-2.16.0.Final.jar libs/quarkus-caf
+ feine-2.16.0.Final.jar libs/quarkus-jaxp-2.16.0.Final.jar libs/quarkus-
+ security-runtime-spi-2.16.0.Final.jar libs/quarkus-vertx-http-dev-conso
+ le-runtime-spi-2.16.0.Final.jar libs/quarkus-core-2.16.0.Final.jar libs
+ /flyway-core-9.11.0.jar libs/brotli4j-1.8.0.jar libs/resteasy-jackson2-
+ provider-4.7.7.Final.jar libs/jackson-datatype-jsr310-2.14.1.jar libs/j
+ ackson-datatype-jdk8-2.14.1.jar libs/jackson-module-parameter-names-2.1
+ 4.1.jar libs/jackson-jaxrs-json-provider-2.14.1.jar libs/jackson-jaxrs-
+ base-2.14.1.jar libs/jackson-module-jaxb-annotations-2.14.1.jar libs/sm
+ allrye-common-vertx-context-1.13.2.jar libs/smallrye-mutiny-vertx-web-2
+ .30.1.jar libs/vertx-web-4.3.7.jar libs/smallrye-mutiny-vertx-uri-templ
+ ate-2.30.1.jar libs/smallrye-mutiny-vertx-web-common-2.30.1.jar libs/sm
+ allrye-mutiny-vertx-auth-common-2.30.1.jar libs/smallrye-mutiny-vertx-b
+ ridge-common-2.30.1.jar libs/smallrye-mutiny-vertx-core-2.30.1.jar libs
+ /vertx-web-common-4.3.7.jar libs/vertx-auth-common-4.3.7.jar libs/vertx
+ -bridge-common-4.3.7.jar libs/vertx-mutiny-generator-2.30.1.jar libs/sm
+ allrye-mutiny-vertx-runtime-2.30.1.jar libs/vertx-uri-template-4.3.7.ja
+ r libs/vertx-core-4.3.7.jar libs/vertx-codegen-4.3.7.jar libs/jackson-c
+ ore-2.14.1.jar libs/jackson-dataformat-toml-2.14.1.jar libs/json-patch-
+ 1.13.jar libs/jackson-coreutils-2.0.jar libs/jackson-databind-2.14.1.ja
+ r libs/jackson-annotations-2.14.1.jar libs/hibernate-core-5.6.14.Final.
+ jar libs/classmate-1.5.1.jar libs/caffeine-3.1.1.jar libs/error_prone_a
+ nnotations-2.17.0.jar libs/resteasy-jaxb-provider-4.7.7.Final.jar libs/
+ jaxb-runtime-2.3.3-b02.jar libs/jakarta.activation-1.2.1.jar libs/agroa
+ l-narayana-1.16.jar libs/agroal-pool-1.16.jar libs/agroal-api-1.16.jar 
+ libs/quarkus-bootstrap-runner-2.16.0.Final.jar libs/org-crac-0.1.3.jar 
+ libs/netty-codec-haproxy-4.1.86.Final.jar libs/netty-handler-proxy-4.1.
+ 86.Final.jar libs/netty-codec-http2-4.1.86.Final.jar libs/netty-codec-h
+ ttp-4.1.86.Final.jar libs/netty-resolver-dns-4.1.86.Final.jar libs/nett
+ y-handler-4.1.86.Final.jar libs/netty-codec-socks-4.1.86.Final.jar libs
+ /netty-codec-dns-4.1.86.Final.jar libs/netty-codec-4.1.86.Final.jar lib
+ s/netty-transport-native-unix-common-4.1.86.Final.jar libs/netty-transp
+ ort-4.1.86.Final.jar libs/netty-buffer-4.1.86.Final.jar libs/netty-reso
+ lver-4.1.86.Final.jar libs/netty-common-4.1.86.Final.jar libs/quarkus-c
+ redentials-2.16.0.Final.jar libs/arc-2.16.0.Final.jar libs/quarkus-secu
+ rity-1.1.4.Final.jar libs/quarkus-datasource-common-2.16.0.Final.jar li
+ bs/quarkus-development-mode-spi-2.16.0.Final.jar libs/quarkus-fs-util-0
+ .0.9.jar libs/quarkus-ide-launcher-2.16.0.Final.jar libs/quarkus-transa
+ ction-annotations-2.16.0.Final.jar libs/quarkus-vertx-latebound-mdc-pro
+ vider-2.16.0.Final.jar libs/smallrye-reactive-converter-mutiny-2.7.0.ja
+ r libs/mutiny-smallrye-context-propagation-1.8.0.jar libs/mutiny-1.8.0.
+ jar libs/resteasy-core-4.7.7.Final.jar libs/smallrye-config-2.13.1.jar 
+ libs/smallrye-config-core-2.13.1.jar libs/smallrye-common-annotation-1.
+ 13.2.jar libs/smallrye-config-common-2.13.1.jar libs/smallrye-common-cl
+ assloader-1.13.2.jar libs/smallrye-common-expression-1.13.2.jar libs/sm
+ allrye-common-function-1.13.2.jar libs/smallrye-common-constraint-1.13.
+ 2.jar libs/smallrye-common-io-1.13.2.jar libs/smallrye-reactive-convert
+ er-api-2.7.0.jar libs/jandex-3.0.5.jar libs/smallrye-context-propagatio
+ n-1.2.2.jar libs/smallrye-context-propagation-api-1.2.2.jar libs/smallr
+ ye-context-propagation-jta-1.2.2.jar libs/smallrye-context-propagation-
+ storage-1.2.2.jar libs/smallrye-fault-tolerance-vertx-5.6.0.jar libs/ja
+ karta.enterprise.cdi-api-2.0.2.jar libs/jakarta.interceptor-api-1.2.5.j
+ ar libs/jakarta.annotation-api-1.3.5.jar libs/jakarta.inject-api-1.0.ja
+ r libs/jakarta.persistence-api-2.2.3.jar libs/jakarta.transaction-api-1
+ .3.3.jar libs/resteasy-core-spi-4.7.7.Final.jar libs/jakarta.validation
+ -api-2.0.2.jar libs/byte-buddy-1.12.18.jar libs/microprofile-config-api
+ -2.0.1.jar libs/microprofile-context-propagation-api-1.2.jar libs/graal
+ -sdk-22.3.0.jar libs/hibernate-graalvm-5.6.14.Final.jar libs/quarkus-lo
+ cal-cache-0.1.1.jar libs/jboss-logging-annotations-2.2.1.Final.jar libs
+ /jboss-threads-3.4.3.Final.jar libs/hibernate-commons-annotations-5.1.2
+ .Final.jar libs/jboss-logging-3.5.0.Final.jar libs/jboss-logmanager-emb
+ edded-1.0.11.jar libs/narayana-jta-5.13.1.Final.jar libs/narayana-jts-i
+ ntegration-5.13.1.Final.jar libs/slf4j-jboss-logmanager-1.2.0.Final.jar
+  libs/jboss-jaxrs-api_2.1_spec-2.0.1.Final.jar libs/jboss-jaxb-api_2.3_
+ spec-2.0.0.Final.jar libs/jboss-transaction-spi-7.6.0.Final.jar libs/po
+ stgresql-42.5.1.jar libs/reactive-streams-1.0.3.jar libs/slf4j-api-1.7.
+ 36.jar libs/wildfly-common-1.5.4.Final-format-001.jar libs/antlr-2.7.7.
+ jar libs/txw2-2.3.3-b02.jar libs/istack-commons-runtime-3.0.10.jar libs
+ /msg-simple-1.2.jar libs/jakarta.el-api-3.0.3.jar libs/jboss-connector-
+ api_1.7_spec-1.0.0.Final.jar libs/btf-1.3.jar libs/asyncutil-0.1.0.jar
+

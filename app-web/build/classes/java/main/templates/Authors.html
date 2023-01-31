@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+
+</head>
+<body>
+<div >
+  <div >
+    <div >
+      <h2 >Authors</h2>
+    </div>
+    <div >
+      <form>
+        <table  >
+          <tbody>
+          <tr >
+            <th >Id</th>
+            <th >first_name</th>
+            <th >last_name</th>
+            <th  th:colspan="2">Options</th>
+          </tr>
+          <tr  th:each="author: ${authors}">
+            <td ><p th:text="${author.getId()}"></p></td>
+            <td ><p th:text="${author.getFirst_name()}"></p></td>
+            <td ><p th:text="${author.getLast_name()}"></p></td>
+            <td >
+              <a   th:href="'/authors/delete?id='+${author.getId()}" >Eliminar</a>
+            </td>
+            <td >
+              <a  th:href="'/authors/formularioModificar?id='+${author.getId()}" >Modificar</a>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+
+        <a th:href="'/authors/formularioInsertar'" >Insert Author</a>
+        <br>
+
+
+      </form>
+    </div>
+
+  </div>
+</div>
+</body>
+
+</html>

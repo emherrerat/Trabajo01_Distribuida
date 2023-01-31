@@ -1,0 +1,30 @@
+[
+  {
+    "author_id": 1,
+    "id": 1,
+    "isbn": "11-11",
+    "price": 20.00,
+    "title": "title1\n"
+  },
+  {
+    "author_id": 2,
+    "id": 3,
+    "isbn": "22-22",
+    "price": 30.00,
+    "title": "title2"
+  },
+  {
+    "author_id": 2,
+    "id": 4,
+    "isbn": "33-33",
+    "price": 40.00,
+    "title": "title3"
+  },
+  {
+    "author_id": 1,
+    "id": 6,
+    "isbn": "44-44",
+    "price": 50.00,
+    "title": "title4"
+  }
+]

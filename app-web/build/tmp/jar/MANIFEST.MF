@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+Main-Class: com.distribuida.Main
+Class-Path: libs/spark-template-thymeleaf-2.7.1.jar libs/spark-core-2.9.
+ 3.jar libs/thymeleaf-extras-java8time-3.0.0.RELEASE.jar libs/thymeleaf-
+ 3.0.15.RELEASE.jar libs/resteasy-jaxb-provider-6.1.0.Final.jar libs/wel
+ d-se-core-5.0.0.SP1.jar libs/slf4j-simple-1.7.21.jar libs/resteasy-clie
+ nt-6.1.0.Final.jar libs/slf4j-api-1.7.25.jar libs/jetty-webapp-9.4.31.v
+ 20200723.jar libs/websocket-server-9.4.31.v20200723.jar libs/jetty-serv
+ let-9.4.31.v20200723.jar libs/jetty-security-9.4.31.v20200723.jar libs/
+ jetty-server-9.4.31.v20200723.jar libs/websocket-servlet-9.4.31.v202007
+ 23.jar libs/ognl-3.1.26.jar libs/attoparser-2.0.5.RELEASE.jar libs/unbe
+ scape-1.1.6.RELEASE.jar libs/resteasy-client-api-6.1.0.Final.jar libs/r
+ esteasy-core-6.1.0.Final.jar libs/resteasy-core-spi-6.1.0.Final.jar lib
+ s/jakarta.xml.bind-api-3.0.1.jar libs/codemodel-4.0.0.jar libs/jaxb-cor
+ e-4.0.0.jar libs/jaxb-jxc-4.0.0.jar libs/jaxb-runtime-4.0.0.jar libs/tx
+ w2-4.0.0.jar libs/jaxb-xjc-4.0.0.jar libs/xsom-4.0.0.jar libs/istack-co
+ mmons-runtime-4.1.0.jar libs/istack-commons-tools-4.1.0.jar libs/relaxn
+ g-datatype-4.0.0.jar libs/rngom-4.0.0.jar libs/weld-environment-common-
+ 5.0.0.SP1.jar libs/weld-lite-extension-translator-5.0.0.SP1.jar libs/we
+ ld-probe-core-5.0.0.SP1.jar libs/weld-core-impl-5.0.0.SP1.jar libs/jbos
+ s-logging-3.4.3.Final.jar libs/weld-spi-5.0.Final.jar libs/weld-api-5.0
+ .Final.jar libs/jakarta.enterprise.cdi-api-4.0.0.jar libs/jboss-classfi
+ lewriter-1.2.5.Final.jar libs/httpclient-4.5.13.jar libs/commons-codec-
+ 1.15.jar libs/jakarta.ws.rs-api-3.1.0.jar libs/reactive-streams-1.0.3.j
+ ar libs/javax.servlet-api-3.1.0.jar libs/websocket-client-9.4.31.v20200
+ 723.jar libs/jetty-client-9.4.31.v20200723.jar libs/jetty-http-9.4.31.v
+ 20200723.jar libs/websocket-common-9.4.31.v20200723.jar libs/jetty-io-9
+ .4.31.v20200723.jar libs/jetty-xml-9.4.31.v20200723.jar libs/websocket-
+ api-9.4.31.v20200723.jar libs/javassist-3.20.0-GA.jar libs/jakarta.inte
+ rceptor-api-2.1.0.jar libs/jboss-logging-processor-2.2.1.Final.jar libs
+ /jakarta.enterprise.lang-model-4.0.0.jar libs/jakarta.annotation-api-2.
+ 1.0.jar libs/jakarta.inject-api-2.0.1.jar libs/jakarta.validation-api-3
+ .0.0.jar libs/jandex-2.4.2.Final.jar libs/jakarta.activation-api-2.1.0.
+ jar libs/angus-activation-1.0.0.jar libs/asyncutil-0.1.0.jar libs/httpc
+ ore-4.4.13.jar libs/commons-logging-1.2.jar libs/jetty-util-9.4.31.v202
+ 00723.jar libs/jakarta.el-api-4.0.0.jar libs/jboss-logging-annotations-
+ 2.2.1.Final.jar libs/jdeparser-2.0.3.Final.jar
+

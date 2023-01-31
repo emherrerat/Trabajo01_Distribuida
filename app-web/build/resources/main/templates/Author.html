@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    </style>
+</head>
+
+<body>
+<form>
+  <table  >
+    <tbody>
+    <tr>
+      <th>Id</th>
+      <th>First_name</th>
+      <th>Last_name</th>
+    </tr>
+    <tr th:each="author: ${author}">
+      <td><p th:text="${author.getId()}"></p></td>
+      <td><p th:text="${authors.getLast_name}"></p></td>
+      <td><p th:text="${authors.getFirst_name}"></p></td>
+    </tr>
+    </tbody>
+  </table>
+  <a th:href="'/album/formularioInsertar'" class="btn btn-primary">Insertar Album</a>
+  <br>
+  <a th:href="'/cantantes'" class="btn btn-primary">Ver todos los Cantantes</a>
+</form>
+</body>
+</html>

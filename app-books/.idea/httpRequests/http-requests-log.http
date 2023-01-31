@@ -1,0 +1,569 @@
+GET http://localhost:7001/books
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-01-30T234020.200.json
+
+###
+
+GET http://localhost:7001/books
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-01-30T233125.200.json
+
+###
+
+PUT http://localhost:7001/books/3
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 61
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"author": 1,"isbn": "4545","title": "La Odisea","price": 45}
+
+###
+
+PUT http://localhost:7001/books/3
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 61
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"author": 1,"isbn": "4545","title": "La Odisea","price": 45}
+
+###
+
+POST http://localhost:7001/books
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 64
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"author": 1,"isbn": "4545","title": "La Odisea","price": 45.60}
+
+<> 2023-01-30T233059.201.json
+
+###
+
+GET http://localhost:7001/books/3
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-01-30T232827.200.json
+
+###
+
+GET http://localhost:7001/books/3
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-01-30T232812.200.json
+
+###
+
+GET http://localhost:7001/books/1
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-01-30T232804.200.json
+
+###
+
+GET http://localhost:7001/books
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-01-30T232534.200.json
+
+###
+
+PUT http://localhost:7001/books/3
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 64
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"author": 1,"isbn": "4545","title": "La Odisea","price": 45.60}
+
+###
+
+POST http://localhost:7001/books
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 64
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"author": 1,"isbn": "4545","title": "La Odisea","price": 45.60}
+
+<> 2023-01-30T232319.201.json
+
+###
+
+POST http://localhost:7001/books
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 64
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"author": 1,"isbn": "4545","title": "La Odisea","price": 45.60}
+
+<> 2023-01-30T232317.201.json
+
+###
+
+GET http://localhost:7001/books
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-01-30T232311.200.json
+
+###
+
+PUT http://localhost:7001/books/3
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 64
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"isbn": "4545","author": 1,"title": "La Odisea","price": 45.60}
+
+###
+
+PUT http://localhost:7001/books/3
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 64
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"isbn": "4545","author": 1,"title": "La Odisea","price": 45.60}
+
+###
+
+GET http://localhost:7001/books
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-01-30T232252.200.json
+
+###
+
+PUT http://localhost:7001/books/3
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 64
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"isbn": "4545","author": 1,"title": "La Odisea","price": 45.60}
+
+###
+
+GET http://localhost:7001/books
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-01-30T231441.200.json
+
+###
+
+PUT http://localhost:7001/books/3
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 64
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"isbn": "4545","author": 1,"title": "La Odisea","price": 45.60}
+
+###
+
+GET http://localhost:7001/books
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-01-30T230803.200.json
+
+###
+
+PUT http://localhost:7001/books/3
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 64
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"isbn": "4545","author": 1,"title": "La Odisea","price": 45.60}
+
+###
+
+GET http://localhost:7001/books
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-01-30T230632.200.json
+
+###
+
+PUT http://localhost:7001/books/3
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 64
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"isbn": "4545","author": 1,"title": "La Odisea","price": 45.60}
+
+###
+
+PUT http://localhost:7001/books/3
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 64
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"author": 1,"isbn": "4545","title": "La Odisea","price": 45.60}
+
+###
+
+PUT http://localhost:7001/books/3
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 64
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"author": 1,"isbn": "4545","title": "La Odisea","price": 45.60}
+
+###
+
+GET http://localhost:7001/books
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-01-30T230523.200.json
+
+###
+
+PUT http://localhost:7001/books/3
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 64
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"author": 1,"isbn": "4545","title": "La Odisea","price": 45.60}
+
+###
+
+PUT http://localhost:7001/books/3
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 64
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"author": 1,"isbn": "4545","title": "La Odisea","price": 45.60}
+
+###
+
+PUT http://localhost:7001/books/4
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 64
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"author": 1,"isbn": "4545","title": "La Odisea","price": 45.60}
+
+###
+
+POST http://localhost:7001/books/2
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 64
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"author": 1,"isbn": "4545","title": "La Odisea","price": 45.60}
+
+###
+
+POST http://localhost:7001/books/4
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 64
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"author": 1,"isbn": "4545","title": "La Odisea","price": 45.60}
+
+###
+
+DELETE http://localhost:7001/books/6
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+DELETE http://localhost:7001/books/6
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:7001/books
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 64
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"author": 1,"isbn": "4545","title": "La Odisea","price": 45.60}
+
+<> 2023-01-30T224504.201.json
+
+###
+
+POST http://localhost:7001/books
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 64
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"isbn": "4545","title": "La Odisea","price": 45.60,"author": 1}
+
+<> 2023-01-30T224242.201.json
+
+###
+
+POST http://localhost:7001/books
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 64
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"isbn": "4545","title": "La Odisea","price": 45.60,"author": 1}
+
+<> 2023-01-30T224239.201.json
+
+###
+
+GET http://localhost:7001/books
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-01-30T224052.200.json
+
+###
+
+GET http://localhost:7001/books
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-01-30T224050.200.json
+
+###
+
+POST http://localhost:7001/books
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 64
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"author": 1,"price": 45.60,"isbn": "4545","title": "La Odisea"}
+
+<> 2023-01-30T224047.201.json
+
+###
+
+POST http://localhost:7001/books
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 64
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"author": 1,"price": 45.60,"isbn": "4545","title": "La Odisea"}
+
+<> 2023-01-30T224044.201.json
+
+###
+
+GET http://localhost:7001/books
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-01-30T224020.200.json
+
+###
+
+GET http://localhost:7001/books
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-01-30T224015.200.json
+
+###
+
+POST http://localhost:7001/books
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 64
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"author": 1,"price": 45.60,"isbn": "4545","title": "La Odisea"}
+
+<> 2023-01-30T224005.201.json
+
+###
+
+POST http://localhost:7001/books
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 64
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"author": 1,"price": 45.60,"isbn": "4545","title": "La Odisea"}
+
+<> 2023-01-30T224003.201.json
+
+###
+
+GET http://localhost:7001/books
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-01-30T223912.200.json
+
+###
+
+POST http://localhost:7001/books
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+Content-Length: 64
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{"isbn": "4545","title": "La Odisea","price": 45.60,"author": 1}
+
+<> 2023-01-30T223904.201.json
+
+###
+
+GET http://localhost:7001/books
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-01-30T223721.200.json
+
+###
+

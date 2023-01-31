@@ -1,0 +1,54 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'io.quarkus' version '2.16.0.Final'
+    id "org.flywaydb.flyway" version "9.8.1"
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+ext {
+    mainClass='com.distribuida.Servidor'
+}
+
+dependencies {
+    //implementacion Quarkus
+    implementation enforcedPlatform("io.quarkus:quarkus-core:2.16.0.Final")
+    implementation 'io.quarkus:quarkus-resteasy-jaxb'
+    //implementation 'io.quarkus:quarkus-resteasy'
+    implementation("io.quarkus:quarkus-resteasy-jackson")
+    //implementacion panache quarkus
+    implementation 'io.quarkus:quarkus-hibernate-orm-panache:2.16.0.Final'
+    implementation 'io.quarkus:quarkus-jdbc-postgresql:2.16.0.Final'
+
+    runtimeOnly 'org.jboss:jandex'
+    // lombok con gradle sin plugin
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
+    testCompileOnly 'org.projectlombok:lombok:1.18.24'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.24'
+    //
+    implementation group: 'org.flywaydb', name: 'flyway-core', version: '9.12.0'
+}
+flyway {
+    url = 'jdbc:postgresql://localhost:5432/distribuida'
+    user = 'postgres'
+    password = 'postgres'
+    schemas = ['public']
+}
+task copyLibs(type: Copy) {
+    from configurations.runtimeClasspath
+    into 'build/libs/libs'
+}
+jar {
+    archiveFileName = "${project.name}.jar"
+    manifest {
+        attributes ('Main-Class': "${project.mainClass}" ,
+                'Class-Path': configurations.runtimeClasspath.files.collect { "libs/$it.name" }.join(' ')
+        )
+    }
+}
